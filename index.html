@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Cocoteo Eventos</title>
+	<meta http-equiv="Content-Type" content="type/html" charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Nerko+One&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="cssb/bootstrap.min.css">
+</head>
+<body>
+	<div class="container-fluid" id="pagina">	
+	<header class="row" id="cabecera">
+		<div class="col-sm-2" id="cab1">
+				<center>
+					<img src="imagenes/logococoteo.png" class="img-fluid img-responsive">
+				</center>
+		</div>
+		<nav class="col-sm-10" id="cab2">
+			<ul class="nav nav-tabs nav-fill">
+				<li class="nav-item modal-title" id="mensaje"><a class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">CONSULTAR</a></li>
+				<li class="nav-item"><a class="nav-link" href="#ofrecemos">OFRECEMOS</a></li>
+				<li class="nav-item"><a class="nav-link" href="#contamos">TENEMOS</a></li>
+				<li class="nav-item"><a class="nav-link" href="#fotos">FOTOS</a></li>
+				<li class="nav-item"><a class="nav-link" href="#ubicacion">UBICACIÓN</a></li>
+			</ul>
+		</nav>
+		<!-- Modal -->
+			<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+			  <div class="modal-dialog">
+			    <div class="modal-content">
+			      <div class="modal-header">
+			        <h5 class="modal-title" id="exampleModalLabel">CONSULTA SOBRE TU FIESTA</h5>
+			        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+			      </div>
+			      <div class="modal-body">
+			      		<form>
+							<input type="text" name="nombre" id="nombreyapellido" placeholder="Nombre y Apellido" maxlength="50"  class="form-control" required>
+							<input type="email" name="correo" id="correo" placeholder="E-mail"  class="form-control" required>
+							<textarea id="consulta" placeholder="Consultas" rows="5" maxlength="300" class="form-control" ></textarea>
+							<input type="submit" class="btn btn-success">
+						</form> 	
+			      </div>
+			    </div>
+			  </div>
+			</div>
+<!--fin del modal-->
+		<div class="col-12" id="cab3">
+			<center>
+				<img src="imagenes/nombre.png" class="img-fluid img-responsive">
+			</center>
+		</div>
+	</header>
+	<section class="row" id="ofrecemos">
+		<div class="col-sm-6" id="te_ofrecemos">
+			<p><u>TE OFRECEMOS:</u></p>
+		</div>
+		<div class="col-sm-6"></div>
+		<div class="col-sm-6" id="ofre1">
+			<ul>
+				<li>1 camarera</li>
+				<li>1 coordinador</li>
+				<li>1 animador</li>
+				<li>animación con juegos acorde a la edad</li>
+				<li>Tarjetas de invitación virtual</li>
+				<li>Piñata con masticables</li>
+				<li>Disfraz para el homenajeado</li>
+			</ul>
+		</div>
+		<div class="col-sm-6" id="ofre2">
+			<ul>
+				<li>Globos para los niños</li>
+				<li>Disco</li>
+				<li>Títeres</li>
+				<li>Servicio de cocina</li>
+				<li>Mantelería, Vajilla y Descartables</li>
+				<li>Té, Café y/o Mate</li>
+			</ul>
+		</div>
+	</section>
+	<section class="row" id="fotos">
+		<div class="col-12" id="titulo_fotos">
+			<figure class="text-center"><p><u>FOTOS:</u></p></figure>
+		</div>
+		<div class="col-12" id="imag">
+			<!--Inicio del carrucel-->
+			<div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+			  <div class="carousel-inner">
+			    <div class="carousel-item active">
+			    	<center>
+			     		<img src="imagenes/cocoteo12.jpeg" class="d-block w-50">
+			    	</center>
+			    </div>
+			    <div class="carousel-item">
+			   		<center>
+			      		<img src="imagenes/cocoteo15.jpeg" class="d-block w-50">
+			    	</center>
+			    </div>
+			    <div class="carousel-item">
+			    	<center>
+			      		<img src="imagenes/cocoteo16.jpeg" class="d-block w-50">
+			    	</center>
+			    </div>
+			    
+			    <div class="carousel-item">
+			    	<center>
+			      		<img src="imagenes/cocoteo20.jpeg" class="d-block w-50">
+			    	</center>
+			    </div>
+			    <div class="carousel-item">
+			   		<center>
+			      		<img src="imagenes/cocoteo3.jpeg" class="d-block w-50">
+			    	</center>
+			    </div>
+			    <div class="carousel-item">
+			    	<center>
+			      		<img src="imagenes/cocoteo4.jpeg" class="d-block w-50">
+			    	</center>
+			    </div>
+			    <div class="carousel-item">
+			    	<center>
+			      		<img src="imagenes/cocoteo6.jpeg" class="d-block w-50">
+			   		</center>
+			    </div>
+			    <div class="carousel-item">
+			    	<center>
+			      		<img src="imagenes/cocoteo9.jpeg" class="d-block w-50">
+			    	</center>
+			    </div>
+			  </div>
+			  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+			    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+			    <span class="visually-hidden">Previous</span>
+			  </button>
+			  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+			    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+			    <span class="visually-hidden">Next</span>
+			  </button>
+			</div>
+			<!-- fin del carrusel -->
+		</div>
+	</section>
+	<section class="row" id="contamos">
+		<div class="col-12" id="contamos_con">
+			<p>CONTAMOS CON</p>
+		</div>
+		<div class="col-sm-4" id="contamos_lista">
+			<ul>
+				<li>Lugar con mayor capacidad</li>
+				<li>Canchita de futbol</li>
+				<li>Pantalla gigante</li>
+				<li>Más espacio para los juegos</li>
+				<li>Opciones de shows especiales</li>
+				<li>Y todo lo que ya conocés!!</li>
+				<li>Pelotero</li>
+				<li>Laberinto</li>
+				<li>Área de animación</li>
+				<li>Mini disco</li>
+				<li>Sector niños y sector adultos</li>
+				<li>Proyector para fotos y videos</li>
+				<li>LCD con Nintendo Wii</li>
+				<li>asistencia médica</li>
+				<li>Seguros al día</li>
+				
+			</ul>
+		</div>
+		<div class="col-sm-4" id="contamos_lista2">
+			<ul>
+				<li>Salidas de emergencia</li>
+				<li>Habilitación municipal</li>
+				<li>Wifi</li>
+				<li>Aire acondicionado</li>
+				<li>Mini disco</li>
+				<li>Sector niños y sector adultos</li>
+				<li>Proyector para fotos y videos</li>
+				<li>LCD con Nintendo Wii</li>
+				<li>asistencia médica</li>
+				<li>Seguros al día</li>
+				<li>Salidas de emergencia</li>
+				<li>Habilitación municipal</li>
+				<li>Wifi</li>
+				<li>Aire acondicionado</li>
+			</ul>
+		</div>
+		<div class="col-sm-4" id="adicionales">
+			<h5>ADICIONALES</h5>
+		<script>
+			var adicionales = (['Hora adicional ',' camarer@ ',' globos ',' bolsitas ',' show de magia ',' animación para adultos ',' pizza party por persona ',' variedad menú infantil '].toString());
+			document.write('<p>'+adicionales+'</p>')
+		</script>
+			<p id="menu_inf">MENÚ INFANTIL</p>
+				<ul>
+					<li>Panchos</li>
+					<li>Pizzetas</li>
+					<li>Snacks</li>
+					<li>Bebida libre (primeras marcas)</li>
+				</ul>
+		</div>
+	</section>
+	<section class="row" id="contacto">
+		<div class="col-12" id="contactanos">
+			<h4>CONTACTANOS</h4>
+		</div>
+		<div class="col-sm-4" id="horario"><span class="aling-middle">HORARIO DE ATENCIÓN<br>De Martes a Sábado <br>de 17 a 23hs</span></div>	
+		<div class="col-sm-4" id="mail"><p>E-MAIL: <br><a href="mailto:cocoteoeventos@hotmail.com" class="link-dark">@cocoteoeventos</a><p></div>
+		<div class="col-sm-4" id="telefono">TELÉFONO/CELULAR:<br>2194-1235/<br>11 5369-0833</div>
+	</section>
+	<footer class="row" id="pie">
+		<nav class="col-sm-8" id="redes">
+			<ul class="nav nav-fill">
+				<li class="nav-item"><a class="nav-link" href="https://www.facebook.com/cocoteo.eventos/"><img src="imagenes/facebook.png"></a></li>
+				<li class="nav-item"><a class="nav-link" href="https://twitter.com/CocoteoEventos"><img src="imagenes/Twitter.png"></a></li>
+				<li class="nav-item"><a class="nav-link" href="https://www.instagram.com/cocoteoeventos/"><img src="imagenes/instagram.png"></a></li>
+			</ul>
+		</nav>
+		<div class="col-sm-4" id="ubicacion"><p>UBICACIÓN<p></div>
+		<aside class="col-sm-8" id="detalles">
+			<ul>
+				<li>
+					Nos mudamos de salón, estamos en la misma zona a unas cuadras del otro lugar. Queremos brindarle mas comodidad entonces decidimos mudarnos para ofrecerles un mejor espacio, aquí a la derecha se encuentra la ubicación, por si no llegan a verla es <mark>BUENOS AIRES 577, CASTELAR</mark> a una cuadra de la estación.
+				</li>
+			</ul>	
+				<p>Los adicionales se hablan antes del evento y durante él <b>SOLO SE PUEDEN AGREGAR NO SACAR.</b> Los adicionales como por ejemplo el show de magia se deberán conversar con antelación <b>NO DURANTE EL CUMPLEAÑOS NI UNA SEMANA ANTES.</b></p>
+				<p id="gracias">MUCHISISMAS GRACIAS!!</p>
+		</aside>
+		<nav class="col-sm-4" id="gps"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3282.0424813780405!2d-58.64512918519339!3d-34.65363006764682!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc7561a8d6209%3A0xcb6d9475b2a9ad16!2sCocoteo%20eventos!5e0!3m2!1ses-419!2sar!4v1606425334527!5m2!1ses-419!2sar"frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe></nav>
+	</footer>
+	</div> 
+	<script type="text/javascript" src="js/eventos.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+	<script type="text/javascript" src="jsb/bootstrap.min.js"></script>
+</body>
+</html>

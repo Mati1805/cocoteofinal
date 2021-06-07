@@ -1,0 +1,214 @@
+#pagina{
+	background-color: #e8dcc5;
+}
+
+#cabecera{
+	background-color: #ffffff;
+	border-bottom-left-radius: 100%;
+	border-bottom-right-radius: 100%;
+}
+
+#cab3 img{
+	 margin-bottom: 20px;
+}
+
+#nombreyapellido{
+	margin-bottom: 10px;
+}
+
+#correo{
+	margin-bottom: 10px;
+}
+
+#consulta{
+	margin-bottom: 10px;
+}
+
+#ofrecemos{
+	background-color: #e8dcc5;
+}
+
+#te_ofrecemos p{
+	padding: 30px; 
+	text-indent: 10px;
+	font-family: Courier;
+	font-size: 35px;
+	color: #FF0000;
+}
+
+#ofre1{
+	font-family: Comic Sans MS;
+	font-size: 18px;
+}
+
+#ofre2{
+	font-family: Comic Sans MS;
+	font-size: 18px;
+}
+
+#contamos{
+	background-color: #e8dcc5;
+}
+
+#contamos_con p{
+	text-align: center;
+	font-family: Courier;
+	color: #FF0000;
+	font-size: 25px;
+}
+
+#contamos_lista ul li{
+	font-family: Comic Sans MS;
+	font-size: 18px;
+}
+
+#contamos_lista2  ul li{
+	font-family: Comic Sans MS;
+	font-size: 18px;
+}
+
+#menu_inf{
+	
+}
+
+h5{
+	margin-bottom: 0px;
+	margin-top: 10px;
+	color: #000;
+	text-indent: 5px;
+	color: red;
+	font-family: Courier;
+}
+
+#adicionales p{
+	font-family: Comic Sans MS;
+	font-size: 16px;
+	margin-top: 5px;
+	color: #000;
+	margin-left: 5px;
+}
+
+#adicionales #menu_inf{
+	font-size: 20px;
+	font-family: Courier;
+	color: #FF0000;
+}
+
+#adicionales ul li{
+	font-family: Comic Sans MS;
+	font-size: 18px;
+}
+
+#fotos{
+	background-color: #000;
+	border-bottom-right-radius: 50px;
+	border-bottom-left-radius: 50px;
+	border-top-right-radius: 50px;
+	border-top-left-radius: 50px;
+}
+
+#titulo_fotos p{
+	font-size: 35px;
+	color: #fff;
+}
+
+#imag{
+	margin-bottom: 10px;
+}
+
+#contacto{
+	background-color: #eb9f23;
+}
+
+h4{
+	text-align: center;
+}
+
+#horario{
+	font-family: 'Nerko One', cursive;
+	color: #ffffff;
+	text-align: center;
+	background-color: rgba(0,0,0,0.4);
+	border-bottom-left-radius: 45px;
+	border-bottom-right-radius: 45px;
+	border-top-left-radius: 45px;
+	border-top-right-radius: 45px; 
+	margin-bottom: 5px;
+}
+
+#mail{
+	font-family: 'Nerko One', cursive;
+	color: #ffffff;
+	text-align: center;
+	background-color: rgba(0,0,0,0.4);
+	border-bottom-left-radius: 45px;
+	border-bottom-right-radius: 45px;
+	border-top-left-radius: 45px;
+	border-top-right-radius: 45px; 
+	margin-bottom: 5px;
+}
+
+#mail a{
+	font-size: 25px;
+}
+
+#telefono{
+	font-family: 'Nerko One', cursive;
+	color: #ffffff;
+	text-align: center;
+	background-color: rgba(0,0,0,0.4);
+	border-bottom-left-radius: 45px;
+	border-bottom-right-radius: 45px;
+	border-top-left-radius: 45px;
+	border-top-right-radius: 45px; 
+	margin-bottom: 5px;
+}
+
+#pie{
+	background-color: #000;
+}
+
+#redes{
+	background-color: rgba(	235,159,35,0.4);
+	border-bottom-right-radius: 50px;
+	border-bottom-left-radius: 50px;
+}
+
+#ubicacion{
+}
+
+#ubicacion p{
+	color: #ffffff;
+	font-size: 30px;
+	margin-top: 0px;
+	text-align: center;
+}
+
+#detalles{
+	font-family: Verdana;
+}
+
+#detalles ul{
+	list-style: circle;
+}
+
+#detalles ul li{
+	color: #FFFFFF;
+	font-size: 15px;
+}
+
+#detalles p{
+	margin-left: 25px;
+	color: #FFFFFF; 
+	font-size: 15px;
+}
+
+#detalles #gracias{
+	text-align: center;
+	color: red;
+}
+
+#gps iframe{
+	width: 100%;
+	height: 100%
+}
